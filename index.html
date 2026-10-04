@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Biodata Mahasiswa Pelita Bangsa University</title></head>
+    <body>
+        <header>
+            <h1>Biodata Mahasiswa Teknik Informatika</h1>
+        </header>
+        <nav>
+            <a href="#">Beranda</a>
+            <a href="#">Biodata</a>
+            <a href="#">Form</a>
+        </nav>
+         <main>
+            <section id="biodata">
+                <h2>Data Mahasiswa</h2>
+                <table border="1">
+                    <tr><th>Data</th><th>Keterangan</th></tr>
+                    <tr><td>NIM</td><td>31241001</td></tr>
+                    <tr><td>Nama</td><td>Nama Mahasiswa</td></tr>
+                    <tr><td>Program Studi</td><td>Teknik Informatika</td></tr>
+                </table>
+                 </section>
+            <section id="form">
+                <h2>Form Biodata</h2>
+                <form>
+                    <label for="nama">Nama</label>
+                    <input type="text" id="nama" name="nama" required minlength="3" maxlength="60"><br><br>
+                <p> Jenis Kelamin </p>
+                <input type="radio" id="laki" name="jk" value="laki" required>
+                <label for="laki">Laki-laki</label><br>
+                <input type="radio" id="perempuan" name="jk" value="perempuan" required>
+                <label for="perempuan">Perempuan</label><br><br>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="nim">NIM</label>
+                    <input type="text" id="nim" name="nim" required minlength="10" maxlength="10"><br><br>
+                    <label for="prodi">Program Studi</label>
+                    <select id="prodi" name="prodi">
+                        <option value="ti">Teknik Informatika</option>
+                        <option value="si">Sistem Informasi</option>
+                        <option value="tk">Teknik Komputer</option>
+                    </select><br><br>
+                    <label for="alamat">Alamat</label>
+                    <textarea id="alamat" name="alamat" required minlength="10" maxlength="200"></textarea><br><br>
+                <h3> Keahlian</h3>
+                <input type="checkbox" id="web" name="keahlian" value="Web Development">
+                <label for="web">Web Development</label><br>
+                <input type="checkbox" id="mobile" name="keahlian" value="Mobile Development">
+                <label for="mobile">Mobile Development</label><br>
+                <input type="checkbox" id="data" name="keahlian" value="Data Science">
+                <label for="data">Data Science</label><br><br>
+                    <button type="submit" value="Submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2026 Biodata Mahasiswa Teknik Informatika</p>
+        </footer>
+    </body>
+</html>
